@@ -14,7 +14,7 @@ class AddTodo extends Component {
         e.preventDefault()
         this.state.content.length ? (
             this.props.addNewTodo(this.state)
-        ): (
+        ) : (
             console.log("empty content")
         )
         this.setState({
